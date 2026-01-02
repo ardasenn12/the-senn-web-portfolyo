@@ -19,7 +19,6 @@ body {
     line-height: 1.6;
 }
 
-/* Navigasyon */
 nav {
     position: fixed;
     top: 0;
@@ -59,7 +58,6 @@ nav {
     color: var(--primary-color);
 }
 
-/* Bölüm Ayarları */
 .section {
     min-height: 100vh;
     display: none;
@@ -71,7 +69,6 @@ nav {
 
 .section.active { display: flex; flex-direction: column; }
 
-/* İmza ve Karşılama */
 .brand-signature {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2rem;
@@ -90,7 +87,6 @@ nav {
 
 .highlight { color: var(--primary-color); }
 
-/* Kartlar ve Butonlar */
 .container { max-width: 1000px; width: 100%; text-align: center; }
 
 .project-grid {
